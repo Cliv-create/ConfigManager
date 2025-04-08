@@ -4,6 +4,20 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+	<PackageId>com.cliv-create.configmanager</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Cliv-create</Authors>
+	<Company></Company>
+	<Description>Config Manager for .NET C# applications using JSON.</Description>
+	<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/Cliv-create</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/Cliv-create/ConfigManager</RepositoryUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 
 </Project>
